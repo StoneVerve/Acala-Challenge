@@ -30,10 +30,10 @@ const main = async () => {
 		admin: admin.address,
     })
 	
-	// We call initializer
-	
-	// We Switch de Admin of Proxy to our contract Admin
-	await proxy.changeAdmin(admin.address)
+    // We call initializer
+    
+    // We Switch de Admin of Proxy to our contract Admin
+    await proxy.changeAdmin(admin.address)
 	
     // We check values are deployed correctly
     const adminOfProxy = await proxy.getAdmin();
