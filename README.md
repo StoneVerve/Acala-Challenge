@@ -26,7 +26,7 @@ Located in the file **packege.json**
 In order to run all the tests and deploy our contracts we need to run a development Acala Mandala chain
 For this project we used docker to run a development Acala Mandala chain
 
-It's recommended to use the docker image with tag 8b66f260 by typing the following command
+It's recommended to use the docker image with tag *8b66f260* by typing the following command
 
 ```
 docker run --rm -p 9944:9944 acala/mandala-node:8b66f260 --dev --ws-external --rpc-methods=unsafe --instant-sealing  -levm=trace
