@@ -49,7 +49,7 @@ const main = async () => {
 		data: dataCall,
 	};
 	
-	await wallet.sendTransaction(tx);
+	//await wallet.sendTransaction(tx);
 	
     // We check values are deployed correctly
     const adminOfProxy = await proxy.getAdmin();
