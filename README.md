@@ -38,9 +38,9 @@ We used `yarn` to manage and install all the packages. To install all the packag
 
 The current supported commands are:
 
-- In order to comiple our smar contracts type `yarn build` in your terminal
-- In order to run all the tests type `yarn test` in your terminal
-- In order to deploy the contracts to a local testnet type `yarn deploy` in your terminal
+- In order to comiple our smar contracts, type `yarn build` in your terminal
+- In order to run all the tests, type `yarn test` in your terminal
+- In order to deploy the contracts to a local testnet, type `yarn deploy` in your terminal
 
 
 
