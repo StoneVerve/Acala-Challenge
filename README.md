@@ -6,8 +6,18 @@ The multi-signature contract administrates an upgradable contract. The upgradabl
 
 ## Dependecies
 
-All the requiered dependecies are listed in the packege.json file. I strongly recommed to usea the exact dependencies versions listed in the packege.json file, since there are 
+All the requiered dependecies are listed in the **packege.json** file. I strongly recommed to usea the exact dependencies versions listed in the packege.json file, since there are 
 compatibilty issues in subsequent versions
+
+### Small detail
+This project was developed using Windows 10, if your using a linux distribution you need the change the key word `set` for `export` in the line
+
+```
+"test": "set NODE_ENV=test && mocha -r ts-node/register/transpile-only --timeout 50000 --no-warnings test/**/*.test.{js,ts}",
+
+```
+
+Located in the file **packege.json**
 
 # Acala Evm
 
@@ -29,7 +39,6 @@ The current commands supported are:
 - In order to comiple our smar contracts type `yarn build` in your terminal
 - In order to run all the tests type `yarn test` in your terminal
 - In order to deploy the contracts to a local testnet type `yarn deploy` in your terminal
-
 
 
 
