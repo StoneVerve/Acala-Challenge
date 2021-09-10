@@ -1,5 +1,5 @@
 # Acala-Challenge
-Acala's scheduller challenge
+Acala's scheduler challenge
 
 Implementation of a time delaying multi-sig admin contract using the schedular feature of Acala EVM
 
