@@ -1,9 +1,9 @@
 # Acala-Challenge
 Acala's scheduler challenge
 
-Implementation of a time delaying multi-sig admin contract using the schedular feature of Acala EVM
+Implementation of a time delaying multi-sig admin contract using the scheduler feature of Acala EVM
 
-The multi-signature contract administrates an upgradable contract. The upgradable contract is implemented using the Transparent Proxy approach.
+The multi-signature contract administrates an upgradeable contract. The upgradeable contract is implemented using the Transparent Proxy approach.
 
 ## Dependecies
 
